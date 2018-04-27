@@ -14,20 +14,24 @@
     <div class='col-left'>
       <h1>MY<br>NAME<br>IS:</h1>
       <h2>CHIHCHUN<br>CHANG.</h2>
-      <p>I am a graduating student living in Taipei, Taiwan. I majored in electrical engineering at National Tsing Hua University, and I’ve done several Computer Vision and Deep Learning projects during my college time. I will pursue my master degree in Computer Science at University of Melbourne in July, 2018. Also, I'm looking for the internship or research opportunity about Machine Learning in Melbourne so there is my CV. Besides, I'll post some awesome Deep Learning researches on my blog. </p>
+      <p>I am a graduate student living in Taipei, Taiwan. I majored in electrical engineering at National Tsing Hua University, and I’ve done several Computer Vision and Deep Learning projects during my college time. I will pursue my master degree in Computer Science at University of Melbourne in July, 2018. Also, I'm looking for the internship or research opportunities. I'd love to hear from you, so please feel free to contact me if ypu need further information. Thank you!</p>
 
     </div>
     <div class='col-right'>
     </div>
-    <div class='circle-icon' style="top:23%; background-image:url(img/fb.png)">
+    <div id='fbpage' class='circle-icon' style="top:23%; background-image:url(img/fb.png)" onclick="myhref('https://www.facebook.com/profile.php?id=100002195446142');">
     </div>
-    <div class='circle-icon' style="top:24%; background-image:url(img/twitter.png)">
+    <div id='email' class='circle-icon' style="top:24%; background-image:url(img/mail.png)" onclick="myhref('mailto:garychang@gapp.nthu.edu.tw');">
     </div>
-    <div class='circle-icon' style="top:25%; background-image:url(img/ig.png)">
+    <div id='cv' class='circle-icon' style="top:25%; background-image:url(img/cv.png)" onclick="myhref('img/cv.pdf');">
     </div>
-    <div class='circle-icon' style="top:26%; background-image:url(img/youtube.png)">
+    <div id='blog' class='circle-icon' style="top:26%; background-image:url(img/medium.png)" onclick="myhref('https://medium.com/deep-learning-g');">
     </div>
-
+    <script type="text/javascript">
+      function myhref(web){
+        window.location.href = web;
+      }
+    </script>
 </div>
 </body>
 

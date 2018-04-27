@@ -26,6 +26,7 @@ p {
     padding-left: 70px;
     padding-right: 50px;
     padding-top: 30px;
+    line-height:20px;
 }
 .container {
 	height: 100%;
@@ -62,6 +63,13 @@ p {
 	justify-content: center;
   	align-items: center;
     display: block;
+}
+.circle-icon:hover {background-color: #B0B0B0}
+
+.circle-icon:active {
+  background-color: #B0B0B0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 @media (max-width: 420px) {
     html,body { 
