@@ -144,6 +144,8 @@ p {
         z-index: -1;
     }
     .circle-icon {
+        position:relative;
+        right: -150px;
         display: block;
     }
 }
