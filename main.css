@@ -104,7 +104,7 @@ p {
     line-height: 72px;
     font-family:Helvetica;
     padding-left: 50px;
-    padding-top: 60px;
+    padding-top: 30px;
     margin: 0;
     }
     h2 {
@@ -115,22 +115,12 @@ p {
         padding-left: 50px;
         margin: 0;
     }
-    h3 {
-        font-size: 50px;
-        color: white;
-        line-height: 30px;
-        font-family:Hiragino Kaku Gothic Std;
-        padding-left: 50px;
-        padding-top: 80px;
-        opacity: .5;
-        margin: 0;
-    }
     p {
-        font-size: 20px;
+        font-size: 18px;
         color: white;
-        line-height:30px;
+        line-height:20px;
         font-family:Helvetica;
-        padding-top: 60px;
+        padding-top: 0px;
         padding-left: 50px;
         padding-right: 50px;
     }
@@ -154,7 +144,7 @@ p {
         z-index: -1;
     }
     .circle-icon {
-        display: none;
+        display: block;
     }
 }
 
