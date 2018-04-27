@@ -1,32 +1,52 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
 html,body { height: 100%; margin:0; padding:0; min-width: 1100px; min-height: 700px;}
+/*
 h1 {
-    font-size: 80px;
+    font-size: 62px;
     color: white;
     line-height: 72px;
     font-family:Hiragino Kaku Gothic Std;
     padding-left: 70px;
-    padding-top: 100px;
+    padding-top: 50px;
     opacity: .5;
     margin: 0;
-}
-h2 {
+}*/
+h1 {
     font-size: 72px;
     color: white;
     line-height: 72px;
+    font-family:Helvetica;
+    padding-left: 50px;
+    padding-top: 60px;
+    margin: 0;
+}
+h2 {
+    font-size: 50px;
+    color: white;
+    line-height: 72px;
+    font-family:Helvetica;
+    padding-left: 50px;
+    margin: 0;
+}
+h3 {
+    font-size: 50px;
+    color: white;
+    line-height: 30px;
     font-family:Hiragino Kaku Gothic Std;
-    padding-left: 70px;
+    padding-left: 50px;
+    padding-top: 80px;
+    opacity: .5;
     margin: 0;
 }
 p {
-    font-size: 14px;
+    font-size: 20px;
     color: white;
+    line-height:30px;
     font-family:Helvetica;
-    padding-left: 70px;
+    padding-top: 60px;
+    padding-left: 50px;
     padding-right: 50px;
-    padding-top: 30px;
-    line-height:20px;
 }
 .container {
 	height: 100%;
@@ -38,7 +58,7 @@ p {
   	float: left; 
     width: 50%; 
     height: 100%;
-    background-color: #33CCFF;
+    background-color: #13C213;
     z-index: -1;
 }
 .col-right { 
@@ -79,30 +99,40 @@ p {
         min-width: 100%; 
     }
     h1 {
-        font-size: 500%;
+    font-size: 72px;
+    color: white;
+    line-height: 72px;
+    font-family:Helvetica;
+    padding-left: 50px;
+    padding-top: 60px;
+    margin: 0;
+    }
+    h2 {
+        font-size: 50px;
         color: white;
+        line-height: 72px;
+        font-family:Helvetica;
+        padding-left: 50px;
+        margin: 0;
+    }
+    h3 {
+        font-size: 50px;
+        color: white;
+        line-height: 30px;
         font-family:Hiragino Kaku Gothic Std;
-        padding-left: 10%;
-        padding-top: 20%;
+        padding-left: 50px;
+        padding-top: 80px;
         opacity: .5;
         margin: 0;
     }
-    h2 {
-        font-size: 320%;
-        color: white;
-        font-family:Hiragino Kaku Gothic Std;
-        padding-left: 10%;
-        line-height: 100%;
-        margin: 0;
-    }
     p {
-        font-size: 100%;
+        font-size: 20px;
         color: white;
+        line-height:30px;
         font-family:Helvetica;
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-top: 5%;
-        line-height:20px;
+        padding-top: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
     .container {
         height: 100%;
@@ -112,7 +142,7 @@ p {
     .col-left { 
         position:relative;
         width: 100%; 
-        background-color: #33CCFF;
+        background-color: #13C213;
         z-index: -1;
     }
     .col-right { 
@@ -125,13 +155,6 @@ p {
     }
     .circle-icon {
         display: none;
-    }
-    .circle-icon:hover {background-color: #B0B0B0}
-
-    .circle-icon:active {
-      background-color: #B0B0B0;
-      box-shadow: 0 5px #666;
-      transform: translateY(4px);
     }
 }
 
