@@ -69,12 +69,15 @@ p {
     background-image:url(img/cover.jpg);
     z-index: -1;
 }
-.circle-icon {
+/*for fb icon*/
+.circle-icon-fb {
 	position:relative;
+    top:30%; 
 	width:70px;
 	height:70px; 
 	margin: auto;
 	border-radius:99em;	
+    background-image:url(img/fb.png);
 	background-color:rgba(245, 245, 245, 0.7);
 	background-size: 35px;
 	background-position: center;
@@ -84,9 +87,80 @@ p {
   	align-items: center;
     display: block;
 }
-.circle-icon:hover {background-color: #B0B0B0}
-
-.circle-icon:active {
+.circle-icon-fb:hover {background-color: #B0B0B0}
+.circle-icon-fb:active {
+  background-color: #B0B0B0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/*for email icon*/
+.circle-icon-email {
+    position:relative;
+    top:31%; 
+    width:70px;
+    height:70px; 
+    margin: auto;
+    border-radius:99em; 
+    background-image:url(img/mail.png);
+    background-color:rgba(245, 245, 245, 0.7);
+    background-size: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.circle-icon-email:hover {background-color: #B0B0B0}
+.circle-icon-email:active {
+  background-color: #B0B0B0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/*for cv icon*/
+.circle-icon-cv {
+    position:relative;
+    top:32%; 
+    width:70px;
+    height:70px; 
+    margin: auto;
+    border-radius:99em; 
+    background-image:url(img/cv.png);
+    background-color:rgba(245, 245, 245, 0.7);
+    background-size: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.circle-icon-cv:hover {background-color: #B0B0B0}
+.circle-icon-cv:active {
+  background-color: #B0B0B0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/*for blog icon*/
+.circle-icon-blog {
+    position:relative;
+    top:33%; 
+    width:70px;
+    height:70px; 
+    margin: auto;
+    border-radius:99em; 
+    background-image:url(img/medium.png);
+    background-color:rgba(245, 245, 245, 0.7);
+    background-size: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.circle-icon-blog:hover {background-color: #B0B0B0}
+.circle-icon-blog:active {
   background-color: #B0B0B0;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
@@ -143,10 +217,105 @@ p {
         background-repeat:no-repeat;
         z-index: -1;
     }
-    .circle-icon {
+    /*for fb icon*/
+    .circle-icon-fb {
         position:relative;
-        right: -150px;
+        top:95%; 
+        right:30%;
+        width:70px;
+        height:70px; 
+        margin: auto;
+        border-radius:99em; 
+        background-image:url(img/fb.png);
+        background-color:rgba(245, 245, 245, 0.7);
+        background-size: 35px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 0;
+        justify-content: center;
+        align-items: center;
         display: block;
+    }
+    .circle-icon-fb:hover {background-color: #B0B0B0}
+    .circle-icon-fb:active {
+      background-color: #B0B0B0;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    /*for email icon*/
+    .circle-icon-email {
+        position:relative;
+        top:85%; 
+        right:10%;
+        width:70px;
+        height:70px; 
+        margin: auto;
+        border-radius:99em; 
+        background-image:url(img/mail.png);
+        background-color:rgba(245, 245, 245, 0.7);
+        background-size: 35px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 0;
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
+    .circle-icon-email:hover {background-color: #B0B0B0}
+    .circle-icon-email:active {
+      background-color: #B0B0B0;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    /*for cv icon*/
+    .circle-icon-cv {
+        position:relative;
+        top:75%; 
+        right:-10%;
+        width:70px;
+        height:70px; 
+        margin: auto;
+        border-radius:99em; 
+        background-image:url(img/cv.png);
+        background-color:rgba(245, 245, 245, 0.7);
+        background-size: 35px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 0;
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
+    .circle-icon-cv:hover {background-color: #B0B0B0}
+    .circle-icon-cv:active {
+      background-color: #B0B0B0;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    /*for blog icon*/
+    .circle-icon-blog {
+        position:relative;
+        top:65%; 
+        right:-30%;
+        width:70px;
+        height:70px; 
+        margin: auto;
+        border-radius:99em; 
+        background-image:url(img/medium.png);
+        background-color:rgba(245, 245, 245, 0.7);
+        background-size: 35px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 0;
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
+    .circle-icon-blog:hover {background-color: #B0B0B0}
+    .circle-icon-blog:active {
+      background-color: #B0B0B0;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
     }
 }
 
